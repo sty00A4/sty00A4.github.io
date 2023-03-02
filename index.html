@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>sty00a4</title>
+        <meta charset="utf-8">
+        <meta name="description" content="sty00a4's portfolio">
+        <meta name="author" content="Vincent Reuter">
+        <meta name="keywords" content="Portfolio, Developer, Languages">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/styles.css">
+    </head>
+    <body>
+        <canvas id="matrix">
+            <script src="code/matrix.js"></script>
+        </canvas>
+        <header>
+            <h1>@<strong>sty00a4</strong></h1>
+            <nav>
+                <ul class="nav">
+                    <li><strong>[</strong><a href="contact.html">Contact</a><strong>]</strong></li>
+                </ul>
+            </nav>
+        </header>
+        <div>
+            <h1>Hey!</h1>
+            I'm a <em>cyber security student</em> located in <em>Germany.</em>
+            <br><br>
+            My main programming languages are <br>
+            <strong>[</strong><a href="https://www.rust-lang.org">Rust</a><strong>]</strong>,
+            <strong>[</strong><a href="https://www.python.org">Python</a><strong>]</strong> and
+            <strong>[</strong><a href="https://www.lua.org">Lua</a><strong>]</strong>.
+            <br><br>
+            But because I'm a <em>fast learner</em>, adapting a new programming language of any kind wouldn't be hard for me <div class="emoji">:)</div>
+        </div>
+        <div>
+            <h1>My Projects</h1>
+            <div class="project">
+                <h2><a href="https://github.com/sty00A4/nody ">Nody</a></h2>
+                A lisp-looking programming language for fun in Rust.
+                <br><br>
+                It is made to be pretty easy to understand and be rewritten in other programming lanuages. Nody uses function overloading,
+                meaning that a function can have different definitions depending on the arguments passed in.
+                <br><br>
+                Nody has a lisp-like syntax as already mentioned, having every function call wrapped in "(" and ")" to mark the end.
+                Most programming languages have two parts for grammatical analysis, <em>lexing</em> and then <em>parsing</em>, but because the syntax of Nody is so simple,
+                I decided to combine the two parts which I just called <em>scanning</em>. Instead of scanning the file for so called <em>tokens</em>, which the lexer does,
+                the <em>scanner</em> instantly converts the source file to a tree-node structure. This saves some time on the pre-interpretation stage.
+            </div>
+        </div>
+    </body>
+</html>
